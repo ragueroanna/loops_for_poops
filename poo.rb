@@ -7,3 +7,5 @@ def can_i_poo?
     puts '💩'
   end  
 end  
+
+can_i_poo?
