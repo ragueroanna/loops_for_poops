@@ -5,7 +5,11 @@ def can_i_poo?
   line = $stdin.readline
   if line.strip == 'p'
     puts '💩'
+    true
+  else
+    puts "\u{1f639}"
+    false
   end  
 end  
 
-can_i_poo?
+loop until can_i_poo?
